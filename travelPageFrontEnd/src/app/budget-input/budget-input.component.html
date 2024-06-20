@@ -1,0 +1,21 @@
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+  <div class="card shadow-lg" style="max-width: 600px; width: 100%;">
+    <div class="card-header text-center text-white rounded-top">
+      <h2>Ingresar Presupuesto</h2>
+    </div>
+    <div class="card-body">
+      <form>
+        <div class="form-group">
+          <label for="budget">Presupuesto (COP)</label>
+          <input type="number" class="form-control" id="budget" name="budget" [(ngModel)]="budget" placeholder="Ingresa tu presupuesto en pesos Colombianos" min="0">
+          <div *ngIf="budget <= 0" class="mt-2">El presupuesto debe ser mayor a 0.</div>
+        </div>
+        <div class="d-flex justify-content-between mt-4">
+          <button class="btn btn-secondary" type="button" (click)="goBack()">Atrás</button>
+          <button class="btn btn-info" type="button" (click)="goToHistorial()">Historial</button>
+          <button class="btn btn-primary" type="button" (click)="goToNext()" [disabled]="budget <= 0">Siguiente</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

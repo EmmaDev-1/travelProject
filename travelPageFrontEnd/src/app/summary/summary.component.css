@@ -1,0 +1,52 @@
+.summary-container {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .summary-card {
+    background: #2a57ec; /* Fondo blanco con transparencia */
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 2rem;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Efecto 3D */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  .card-body h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card-body p {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .btn-primary {
+    border-radius: 5px;
+    background-color: #2a57ec;
+    border-color: #2a57ec;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra en el botón */
+    margin-left: 50px;
+    border-radius: 15px;
+  }
+  
+  .btn-primary:hover {
+    opacity: 0.9;
+  }
+    
+  button.btn-info {
+    background-color: #da7d31;
+    border-color: #da7d31;
+    border-radius: 15px;
+  }
+  

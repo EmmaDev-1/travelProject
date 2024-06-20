@@ -1,0 +1,27 @@
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+  <div class="card shadow-lg" style="max-width: 600px; width: 100%;">
+    <div class="card-header text-center rounded-top">
+      <h2>Seleccionar Destino</h2>
+    </div>
+    <div class="card-body">
+      <form>
+        <div class="form-group">
+          <label for="country">País</label>
+          <select class="form-control" id="country" name="country" [(ngModel)]="selectedCountry" (change)="onCountryChange()">
+            <option *ngFor="let country of countries" [value]="country">{{ country }}</option>
+          </select>
+        </div>
+        <div class="form-group mt-3">
+          <label for="city">Ciudad</label>
+          <select class="form-control" id="city" name="city" [(ngModel)]="selectedCity" [disabled]="!selectedCountry">
+            <option *ngFor="let city of cities" [value]="city">{{ city }}</option>
+          </select>
+        </div>
+        <div class="d-flex justify-content-between mt-4">
+          <button class="btn btn-info" type="button" (click)="goToHistorial()">Historial</button>
+          <button class="btn btn-primary" type="button" (click)="goToNext()" [disabled]="!selectedCity">Siguiente</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
