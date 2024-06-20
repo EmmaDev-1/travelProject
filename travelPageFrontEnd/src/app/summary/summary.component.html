@@ -1,1 +1,14 @@
-<p>summary works!</p>
+<div class="summary-container">
+  <div class="card summary-card shadow-lg">
+    <div class="card-body text-center">
+      <h3>{{ selectedCountry }} - {{ selectedCity }}</h3>
+      <p><strong> {{ weather }} °C</strong></p>
+      <p><strong>Moneda Local:</strong> {{ localCurrency }} ({{ currencySymbol }})</p>
+      <p><strong>Presupuesto:</strong> {{ budget | currency:'COP':'symbol':'1.0-0' }}</p>
+      <p><strong>Presupuesto Convertido:</strong> {{ convertedBudget | number:'1.2-2' }} {{ currencySymbol }}</p>
+      <p><strong>Tasa de Cambio:</strong> 1 COP = {{ exchangeRate }} {{ localCurrency }}</p>
+      <button class="btn btn-info mt-3" type="button" (click)="goToHistorial()" i18n>Historial</button>
+      <button class="btn btn-primary mt-3" (click)="restart()">Volver al Inicio</button>
+    </div>
+  </div>
+</div>

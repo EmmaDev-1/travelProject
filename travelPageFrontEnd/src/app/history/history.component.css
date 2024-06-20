@@ -1,0 +1,60 @@
+.container {
+    margin-top: 2rem;
+  }
+  
+  .card {
+    border-radius: 15px; /* Bordes redondeados para la tarjeta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    overflow: hidden; /* Asegura que el contenido no sobresalga */
+  }
+  
+  .card-header {
+    background-color: #2a57ec;
+    color: #fff;
+    border-top-left-radius: 15px; /* Bordes redondeados */
+    border-top-right-radius: 15px; /* Bordes redondeados */
+  }
+  
+  .table {
+    overflow: hidden; /* Asegura que el contenido no sobresalga de la tabla redondeada */
+    
+    border-color: #c6dbec;
+  }
+  
+  .table thead {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 1rem;
+  }
+  
+  .table th {
+    font-weight: bold;
+  }
+  
+  .table td {
+    color: #343a40;
+  }
+  
+  .table td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .table td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  

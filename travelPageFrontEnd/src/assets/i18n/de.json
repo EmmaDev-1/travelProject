@@ -1,0 +1,20 @@
+{
+    "BUDGET_TITLE": "Budget Eingeben",
+    "BUDGET_LABEL": "Budget (COP)",
+    "ERROR_MESSAGE": "Das Budget muss größer als 0 sein.",
+    "BACK_BUTTON": "Zurück",
+    "NEXT_BUTTON": "Weiter",
+    "SELECT_DESTINATION": "Ziel Wählen",
+    "COUNTRY_LABEL": "Land",
+    "CITY_LABEL": "Stadt",
+    "TRAVEL_SUMMARY": "Reisezusammenfassung",
+    "COUNTRY": "Land",
+    "CITY": "Stadt",
+    "BUDGET": "Budget",
+    "WEATHER": "Wetter",
+    "LOCAL_CURRENCY": "Landeswährung",
+    "CONVERTED_BUDGET": "Umgewandeltes Budget",
+    "EXCHANGE_RATE": "Wechselkurs",
+    "RESTART_BUTTON": "Zum Anfang"
+  }
+  

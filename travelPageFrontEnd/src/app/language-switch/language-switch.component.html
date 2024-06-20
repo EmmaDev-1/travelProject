@@ -1,1 +1,7 @@
-<p>language-switch works!</p>
+<div>
+  <label for="language" i18n>Idioma</label>
+  <select id="language" (change)="switchLanguage($event)">
+    <option value="es">Español</option>
+    <option value="de">Alemán</option>
+  </select>
+</div>

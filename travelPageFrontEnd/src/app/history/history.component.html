@@ -1,1 +1,37 @@
-<p>history works!</p>
+<div class="container mt-5">
+  <div class="card shadow-sm">
+    <div class="card-header text-center text-white">
+      <h2>Historial de Consultas</h2>
+    </div>
+    <div class="card-body">
+      <div class="table-responsive">
+        <table class="table table-hover">
+          <thead class="">
+            <tr>
+              <th scope="col">País</th>
+              <th scope="col">Ciudad</th>
+              <th scope="col">Presupuesto (COP)</th>
+              <th scope="col">Clima (°C)</th>
+              <th scope="col">Moneda Local</th>
+              <th scope="col">Símbolo Moneda</th>
+              <th scope="col">Presupuesto Convertido</th>
+              <th scope="col">Tasa de Cambio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let consulta of historial">
+              <td>{{ consulta.pais }}</td>
+              <td>{{ consulta.ciudad }}</td>
+              <td>{{ consulta.presupuesto | currency:'COP':'symbol':'1.0-0' }}</td>
+              <td>{{ consulta.clima }}</td>
+              <td>{{ consulta.moneda_local }}</td>
+              <td>{{ consulta.simbolo_moneda }}</td>
+              <td>{{ consulta.presupuesto_convertido | number:'1.2-2' }}</td>
+              <td>{{ consulta.tasa_cambio }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

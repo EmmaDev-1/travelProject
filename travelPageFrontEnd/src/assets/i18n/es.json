@@ -1,0 +1,20 @@
+{
+    "BUDGET_TITLE": "Ingresar Presupuesto",
+    "BUDGET_LABEL": "Presupuesto (COP)",
+    "ERROR_MESSAGE": "El presupuesto debe ser mayor a 0.",
+    "BACK_BUTTON": "Atrás",
+    "NEXT_BUTTON": "Siguiente",
+    "SELECT_DESTINATION": "Seleccionar Destino",
+    "COUNTRY_LABEL": "País",
+    "CITY_LABEL": "Ciudad",
+    "TRAVEL_SUMMARY": "Resumen del Viaje",
+    "COUNTRY": "País",
+    "CITY": "Ciudad",
+    "BUDGET": "Presupuesto",
+    "WEATHER": "Clima",
+    "LOCAL_CURRENCY": "Moneda Local",
+    "CONVERTED_BUDGET": "Presupuesto Convertido",
+    "EXCHANGE_RATE": "Tasa de Cambio",
+    "RESTART_BUTTON": "Volver al Inicio"
+  }
+  
