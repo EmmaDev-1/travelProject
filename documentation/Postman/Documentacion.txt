@@ -1,0 +1,46 @@
+Aqui se puede encontrar toda URL para APIS (Clima, Cambio de moneda, Guardar consulta y Obtener historial)
+
+----------------------------------Clima----------------------------------
+
+URl = https://api.openweathermap.org/data/2.5/weather?q=Agra&appid=b554453b19ba054f7b297add085cf535&units=metric
+
+--Params--
+q: Agra
+appid: b554453b19ba054f7b297add085cf535
+units: metric
+
+-------------------------------------------------------------------------
+
+----------------------------Cambio de Moneda-----------------------------
+
+URL = https://v6.exchangerate-api.com/v6/ad14328be8d20adc26e6169f/latest/USD
+
+--Params--
+Na
+
+--------------------------------------------------------------------------
+
+------------------------------Guardar Consulta-----------------------------
+
+URL = http://localhost/travelPageBackEnd/guardarConsulta.php
+
+--Prams--
+"pais": "Japón",
+"ciudad": "Tokio",
+"presupuesto": 1000,
+"clima": "25",
+"moneda_local": "Yen",
+"simbolo_moneda": "¥",
+"presupuesto_convertido": 750000,
+"tasa_cambio": 0.75
+
+-----------------------------------------------------------------------------
+
+------------------------------Obtener Historial------------------------------
+
+URL = http://localhost/travelPageBackEnd/obtenerHistorial.php
+
+--Params--
+Na
+
+-----------------------------------------------------------------------------
